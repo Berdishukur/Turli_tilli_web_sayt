@@ -5,7 +5,7 @@ from django.shortcuts import render
 def blog_list(request):
         htl = """
         <h1> Second Blog <h1/>
-        <h1> Ikkinchi Blog <h1/>
+        <h1> Ikkinchi Bl   og <h1/>
            <a href="../"> first_page.. </a>
 
         """
