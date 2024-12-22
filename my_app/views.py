@@ -6,7 +6,7 @@ from django.http import HttpResponse
 def first(request):
     htl="""
     <h1> First Page </h1>
-    <h1> <aAsosiy Page1 </h1>
+    <h1> Asosiy Page1 </h1>
     <a href="second/"> second_page.. </a>
 
     """

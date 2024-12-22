@@ -15,13 +15,19 @@ def blog_list(request):
         <h1> Second Blog <h1/>
         <h1> Ikkinchi Blog <h1/>
            <a href="kitob"> Kitoblar >>>.. </a>
+           <br/>
+           <br/>
+        <a href="../"> ..<<< asosiy sahifa</a>
+
 
         """
         return HttpResponse(htl)
 def kitob(request):
         htl="""
         <h1> Kitoblar menyuse<h1/>
-        <a href="kitob"> ..<<< oldinga</a>
-        <a href="..//"> ..<<< asosiy sahifa </a>
+        <a href="menyu"> ..<<< oldinga</a>
+        <br/>
+           <br/>
+        <a href="../"> ..<<< asosiy sahifa</a>
         """
         return HttpResponse(htl)
