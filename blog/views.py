@@ -2,6 +2,14 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
+def main1(request):
+        htl = """
+        <h1> Asosiy Sahifa </h1>
+        <a href = "menyu"> Menyular >>> ... </a>
+        
+        """
+        return HttpResponse(htl)
+
 def blog_list(request):
         htl = """
         <h1> Second Blog <h1/>
@@ -13,6 +21,7 @@ def blog_list(request):
 def kitob(request):
         htl="""
         <h1> Kitoblar menyuse<h1/>
-        < href="blog"> ..<<< oldinga</a>
+        <a href="kitob"> ..<<< oldinga</a>
+        <a href="..//"> ..<<< asosiy sahifa </a>
         """
         return HttpResponse(htl)
