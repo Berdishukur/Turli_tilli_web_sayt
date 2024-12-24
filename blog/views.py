@@ -5,7 +5,6 @@ from django.shortcuts import render
 def main1(request):
         htl = """
         <h1> Asosiy Sahifa </h1>
-        <b><a href = "menyu"> Menyular >>> ... </a></b>
         
         """
         return HttpResponse(htl)
