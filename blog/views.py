@@ -14,6 +14,7 @@ def blog_list(request):
         htl = """
         <h1> Second Blog <h1/>
         <h1> Ikkinchi Blog <h1/>
+           <a href="kitob"> Kitoblar >>>.. </a>
            <br/>
            <br/>
         <a href="../"> ..<<< asosiy sahifa</a>
