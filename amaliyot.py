@@ -1,11 +1,3 @@
 
-son=int(input("Qaysi karani chiqarmoqchisiz?, kiriting: "))
-print(son ,"* 1 = ", 1*son)
-print(son ,"* 2 = ", 2*son)
-print(son ,"* 3 = ", 3*son)
-print(son ,"* 4 = ", 4*son)
-print(son ,"* 5 = ", 5*son)
-print(son ,"* 6 = ", 6*son)
-print(son ,"* 7 = ", 7*son)
-print(son ,"* 8 = ", 8*son)
-print(son ,"* 9 = ", 9*son)
+son=int(input("Sonni kiriting : "))
+print("Nateja = ",son*son)
