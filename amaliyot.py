@@ -1,3 +1,2 @@
-
-son=int(input("Sonni kiriting : "))
-print("Nateja = ",son*son)
+matn="Assalomu alaykum "
+print(len(matn))
