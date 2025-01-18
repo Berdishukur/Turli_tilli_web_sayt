@@ -1,3 +1,2 @@
-matn="Assalomu alaykum "
-print(len(matn))
-"Salom"
+
+print("Hello World!!!")
