@@ -3,7 +3,7 @@ Q=False
 R=18
 if A%2==1 and :
     print("Shart bajarildi.")
-else:
+else
     print("Shart bajarilmadi.")
 
 
