@@ -1,4 +1,6 @@
-for i in range(1,11):
-    print(i*"Salom")
+mevalar=["olma","anor","olcha","shaftoli"]
+
+for i in mevalar:
+    print(i,len(i))
 
 
