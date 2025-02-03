@@ -1,6 +1,7 @@
-mevalar=["oLma","qovun","anor","olcha","banan","nok"]
+mevalar=["olma","qovun","anor","olcha","banan","nok"]
 for i in mevalar:
     print(i)
+
 
 
 
