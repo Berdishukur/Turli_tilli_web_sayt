@@ -1,6 +1,7 @@
-mevalar=["olma","anor","olcha","shaftoli"]
+for i in range(1,10):
+    if i==7:
+        continue
+    print(i)
 
-for i in mevalar:
-    print(i,len(i))
 
 
