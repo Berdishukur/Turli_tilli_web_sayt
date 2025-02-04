@@ -1,6 +1,6 @@
-# import datetime
-# yil=int(input("Tug'ilgan yilingizni kiriting : "))
-# print("Siz ",datetime.datetime.now().year-yil," yoshdasiz")
+import datetime
+yil=int(input("Tug'ilgan yilingizni kiriting : "))
+print("Siz ",datetime.datetime.now().year-yil," yoshdasiz")
 
 
 # son1=int(input("1- sonni kiriting : "))
