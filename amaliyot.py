@@ -1,7 +1,23 @@
-mevalar=["olma","qovun","anor","olcha","banan","nok"]
-for i in mevalar:
-    print(i)
+# import datetime
+# yil=int(input("Tug'ilgan yilingizni kiriting : "))
+# print("Siz ",datetime.datetime.now().year-yil," yoshdasiz")
 
+
+# son1=int(input("1- sonni kiriting : "))
+# son2=int(input("2- sonni kiriting : "))
+# print("Yig'indi = ",son1+son2)
+
+# yosh=int(input("Yoshingizni kiriting : "))
+# print(yosh+1)
+
+# ism = input("Ismingizni kiriting : ")
+#
+# print("Salom",ism)
+
+
+# mevalar=["oLma","Qovun","anor","OLcha","BAnan","nok"]
+# for i in mevalar:
+#     print(i.upper())
 
 
 
