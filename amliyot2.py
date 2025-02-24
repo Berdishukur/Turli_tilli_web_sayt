@@ -1,6 +1,39 @@
-import copy
-sonlar=[[2,3,4,5,6],[-3,-5,-7,-9]]
-sonlar2=copy.deepcopy(sonlar)
-sonlar2[0][0]=90
-print(sonlar2)
-print(sonlar)
+g=['🍎','🍎','🍎','🍎','🍎','🍎','🍎','🍎','🍎']
+print(f"""
+| {g[0]} | {g[1]} | {g[2]} |
+| {g[3]} | {g[4]} | {g[5]} |
+| {g[6]} | {g[7]} | {g[8]} |
+
+""")
+while True:
+    x=int(input("X= "))
+    while g[x-1]=='🐍' or g[x-1]=='🐢':
+        print("Bu joy band qaytarib kriing >>>>>>>>>>>")
+        x=int(input("X= "))
+    g[x-1] = '🐍'
+    print(f"""
+    | {g[0]} | {g[1]} | {g[2]} |
+    | {g[3]} | {g[4]} | {g[5]} |
+    | {g[6]} | {g[7]} | {g[8]} |
+    
+    """)
+    if g[0]==g[1]==g[2]=='🐍' or g[3]==g[4]==g[5]=='🐍' or  g[6]==g[7]==g[8]=='🐍' or \
+            g[0]==g[3]==g[6]=='🐍' or g[1]==g[4]==g[7]=='🐍' or  g[2]==g[5]==g[8]=='🐍' or g[0]==g[4]==g[8]=='🐍' or  g[0]==g[4]==g[8]=='🐍' or  g[2]==g[4]==g[6]=='🐍':
+        print("🐍 yuti tamom!!!!")
+        break
+    y = int(input("Y= "))
+    while g[y - 1] == '🐍' or g[y - 1] == '🐢':
+        print("Bu joy band qaytarib kriting >>>>>>>>>>>")
+        y=int(input("Y= "))
+    g[y - 1] = '🐢'
+    print(f"""
+    | {g[0]} | {g[1]} | {g[2]} |
+    | {g[3]} | {g[4]} | {g[5]} |
+    | {g[6]} | {g[7]} | {g[8]} |
+     """)
+    if g[0] == g[1] == g[2] == '🐢' or g[3] == g[4] == g[5] == '🐢' or g[6] == g[7] == g[8] == '🐢' or \
+            g[0] == g[3] == g[6] == '🐢' or g[1] == g[4] == g[7] == '🐢' or g[2] == g[5] == g[8] == '🐢' or \
+            g[0] == g[4] == g[8] == '🐢' or g[2] == g[4] == g[6] == '🐢':
+        print("🐢 yuti tamom!!!!")
+        break
+        
