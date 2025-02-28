@@ -1,9 +1,10 @@
    # Filter
    # Reduce
    # Map
+from functools import reduce
 sonlar=[1,2,3,4,5,6,7,8,9]
-result=filter(lambda a:a%2==1,sonlar)
-print(list(result))
+result=reduce(lambda a,b:a if a>b else b,sonlar)
+print((result))
 # def even(n):
 #     return (n>0)
 # numbers1=[-1,3,12,-34,56]
