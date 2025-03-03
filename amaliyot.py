@@ -1,6 +1,9 @@
-sonlar =[1,2,3,4,5,6,7,8]
-newlist=[i for i in sonlar if i>5]
-print(newlist)
+x=lambda a,b,c,d:a/c*b*d
+print(x(6,5,3,4))
+
+# sonlar =[1,2,3,4,5,6,7,8]
+# newlist=[i*5 for i in sonlar if i<5]
+# print(newlist)
 # son=25
 # print(type(son))
 # son=str(son)
