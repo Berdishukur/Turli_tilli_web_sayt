@@ -1,4 +1,7 @@
-from functools import reduce
-numbers = [1,2,3,4,5,6,7,8,9]
-result=reduce(lambda x,y:x+y,numbers)
-print(result)
+try:
+    print(ism)
+except NameError as i:
+    print(f"Sizda >>> {i} <<< xatolik yuz berdi ")
+
+finally:
+    print("Dastur yakunllandi")
