@@ -1,7 +1,2 @@
-son = int(input('Son : '))
-if son>0:
-    print("Musbat")
-elif son==0:
-    print("Nol")
-else:
-    print("Manfiy")
+matn=input("Matn: ")
+print(matn[0].upper()+matn[1:-1].lower()+matn[-1].upper())
